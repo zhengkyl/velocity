@@ -4,7 +4,10 @@ import { CSS } from "@dnd-kit/utilities";
 
 export function Item({ className = "", children, ...props }) {
   return (
-    <div className={`border p-8 ${className}`} {...props}>
+    <div
+      className={`bg-white border p-3 touch-none select-none leading-none ${className}`}
+      {...props}
+    >
       {children}
     </div>
   );
