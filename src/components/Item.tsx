@@ -1,6 +1,7 @@
 /* eslint-disable */
 import { useSortable } from "@dnd-kit/sortable";
 import { CSS } from "@dnd-kit/utilities";
+import { motion } from "framer-motion";
 
 export function Item({ className = "", children, ...props }) {
   return (
